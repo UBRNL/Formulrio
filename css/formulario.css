@@ -1,0 +1,64 @@
+.input {
+    width: 300px;
+    padding: 15px, 20px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.input[type="password"] {
+    color: red;
+}
+.input-moderno {
+    border-top: none;
+    border-left: none;
+    border-right: none ;
+    border-bottom: 1px solido gainsboro;
+    padding: 5px;
+    background-image: url(../img/search.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.input-moderno::placeholder {
+    color: #c2c2c2;
+}
+.input-moderno:focus {
+    border-bottom: 1px solid #5f5f5f;
+}
+.input-moderno2 {
+    background-color: aquamarine;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 10px;
+    color: white;
+    margin: 10px;
+}
+.input-moderno2::placeholder {
+    color: royalblue;
+}
+.input-search {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px; /*Para separar uno del otro*/
+    background-image: url(../img/search.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+#area {
+    resize: horizontal;
+}
+select {
+    width: 100px;
+    padding: 7px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+.junkoo {
+    background-color: rgb(235, 192, 255);
+    width: 60px;
+    height: 20px;
+}
